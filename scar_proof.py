@@ -10,7 +10,7 @@ CANONICAL_STRING = (
     "\"time_anchor_hash\":\"3c9e7a1b5d8f2a4c6e0b9d1a8f5c2e7a1b8d5f9c2e4a6b0d8f5c2e7a1b8d5f9c\"}"
 )
 EXPECTED_SHA256 = "3bfce7177b177c7449891ae8b6c5e993611366ed152538534b4276a9a5da5c9d"
-ANCHOR_URL = "https://x.com/STARFORGEVAULT"  # public anchor; update to the specific post if you want
+ANCHOR_URL = "https://x.com/starforgevault/status/1957703579692585303?s=46"  # public anchor; update to the specific post if you want
 
 def sha256_hex(s: str) -> str:
     return hashlib.sha256(s.encode("utf-8")).hexdigest()
