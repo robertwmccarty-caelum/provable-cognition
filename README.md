@@ -7,4 +7,5 @@ The proof is not an explanation—it is an attestation.
 
 ## Run the Proof
 ```bash
-python scar_proof.py
+# In Codespaces terminal or locally:
+python3 scar_proof.py | tee proof.ndjsonpython scar_proof.py
